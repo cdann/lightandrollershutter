@@ -15,9 +15,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        let reposFactory: ReposFactoryProtocol = ProcessInfo.processInfo.environment["isMock"] == "1" ? Mock.ReposFactory() : Live.ReposFactory()
-        let UCfactory = UCFactory(reposFactory: reposFactory)
-        window?.rootViewController = TestCoordinator(ucFactory: UCfactory).getViewController()
+        let isMock = ProcessInfo.processInfo.environment["isMock"] == "1"
+        let rootCoordinator = RootCoordinator(isMock: isMock)
+        window?.rootViewController =  try? rootCoordinator.getRoot()
         window?.makeKeyAndVisible()
     }
 

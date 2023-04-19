@@ -15,11 +15,14 @@ class UCFactory {
         self.reposFactory = reposFactory
     }
     
-    func factorize<T>(uc: T.Type) -> T? {
-        if (T.self == TestUseCase.self) {
-            return TestUseCase(repository: reposFactory.getTestRepository()) as! T
+    func factorize<T>(uc: T.Type) throws -> T {
+//        if (T.self == TestUseCaseProtocol.self) {
+//            return TestUseCase(repository: reposFactory.getTestRepository()) as! T
+//        }
+        if (T.self == GetDevicesUseCaseProtocol.self) {
+            return GetDeviceUseCase(repository: reposFactory.getDeviceRepository()) as! T
         }
-        return nil
+        throw NSError()
     }
 }
 

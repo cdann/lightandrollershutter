@@ -8,6 +8,6 @@
 import Foundation
 
 protocol ReposFactoryProtocol {
-    func getTestRepository() -> TestRepository
+    func getDeviceRepository() -> DeviceRepository
 }
 

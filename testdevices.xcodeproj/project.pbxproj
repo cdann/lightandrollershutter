@@ -13,17 +13,30 @@
 		1E3E179829D0B58F009B4CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3E179629D0B58F009B4CC7 /* LaunchScreen.storyboard */; };
 		1E3E17A329D0B590009B4CC7 /* testdevicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17A229D0B590009B4CC7 /* testdevicesTests.swift */; };
 		1E3E17AE29D0B590009B4CC7 /* testdevicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17AD29D0B590009B4CC7 /* testdevicesUITests.swift */; };
-		1E3E17D529D0B76A009B4CC7 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17D429D0B76A009B4CC7 /* TestViewController.swift */; };
+		1E3E17D529D0B76A009B4CC7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17D429D0B76A009B4CC7 /* DetailsViewController.swift */; };
 		1E3E17DD29D0CFD6009B4CC7 /* UC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17DC29D0CFD6009B4CC7 /* UC.swift */; };
-		1E3E17E229D0D0F8009B4CC7 /* TestUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17E129D0D0F8009B4CC7 /* TestUseCase.swift */; };
-		1E3E17F329D0D641009B4CC7 /* TestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17F229D0D641009B4CC7 /* TestRepository.swift */; };
 		1E3E17FC29D0D67A009B4CC7 /* ReposFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E17FB29D0D67A009B4CC7 /* ReposFactory.swift */; };
-		1E3E180829D0D8E8009B4CC7 /* LiveTestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E180729D0D8E8009B4CC7 /* LiveTestRepository.swift */; };
-		1E3E181029D0D935009B4CC7 /* MockTestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E180F29D0D935009B4CC7 /* MockTestRepository.swift */; };
+		1E3E181029D0D935009B4CC7 /* MockDeviceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E180F29D0D935009B4CC7 /* MockDeviceRepository.swift */; };
 		1E3E181829D0D992009B4CC7 /* MockReposFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E181729D0D992009B4CC7 /* MockReposFactory.swift */; };
 		1E3E182329D0DB87009B4CC7 /* LiveReposFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E182229D0DB87009B4CC7 /* LiveReposFactory.swift */; };
-		1E3E182829D0E0EA009B4CC7 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E182729D0E0EA009B4CC7 /* TestViewModel.swift */; };
-		1E3E182D29D0E5A0009B4CC7 /* TestCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E182C29D0E5A0009B4CC7 /* TestCoordinator.swift */; };
+		1E3E182829D0E0EA009B4CC7 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E182729D0E0EA009B4CC7 /* DetailsViewModel.swift */; };
+		1E3E182D29D0E5A0009B4CC7 /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E182C29D0E5A0009B4CC7 /* DetailsCoordinator.swift */; };
+		1E7023C229DB24DD0077F348 /* DetailsViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7023C129DB24DD0077F348 /* DetailsViewData.swift */; };
+		1EE2931929D713F60027D2DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EE2931B29D713F60027D2DA /* Localizable.strings */; };
+		1EE2932829D73C6B0027D2DA /* LightDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2932729D73C6B0027D2DA /* LightDto.swift */; };
+		1EE2932D29D73D450027D2DA /* LiveDeviceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2932C29D73D450027D2DA /* LiveDeviceRepository.swift */; };
+		1EE2933529D7439F0027D2DA /* DeviceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE2933429D7439F0027D2DA /* DeviceRepository.swift */; };
+		1EE9419F29D362A3001FBCB9 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9419E29D362A3001FBCB9 /* RootCoordinator.swift */; };
+		1EE941BE29D36777001FBCB9 /* HomeViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941BD29D36777001FBCB9 /* HomeViewData.swift */; };
+		1EE941C429D367FE001FBCB9 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941C329D367FE001FBCB9 /* Light.swift */; };
+		1EE941C929D36844001FBCB9 /* RollerShutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941C829D36844001FBCB9 /* RollerShutter.swift */; };
+		1EE941D629D36AB7001FBCB9 /* GetDevicesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941D529D36AB7001FBCB9 /* GetDevicesUseCase.swift */; };
+		1EE941DE29D36AF2001FBCB9 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941DD29D36AF2001FBCB9 /* Device.swift */; };
+		1EE941E629D38743001FBCB9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941E529D38743001FBCB9 /* HomeViewController.swift */; };
+		1EE941EC29D38983001FBCB9 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941EB29D38983001FBCB9 /* UIView+constraints.swift */; };
+		1EE941F029D38E58001FBCB9 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941BC29D366D9001FBCB9 /* HomeCoordinator.swift */; };
+		1EE941F429D38E60001FBCB9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE941BA29D366D9001FBCB9 /* HomeViewModel.swift */; };
+		1EE9420129D39204001FBCB9 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE9420029D39204001FBCB9 /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,18 +69,32 @@
 		1E3E17A929D0B590009B4CC7 /* testdevicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testdevicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3E17AD29D0B590009B4CC7 /* testdevicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdevicesUITests.swift; sourceTree = "<group>"; };
 		1E3E17AF29D0B590009B4CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E3E17D429D0B76A009B4CC7 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		1E3E17D429D0B76A009B4CC7 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		1E3E17DC29D0CFD6009B4CC7 /* UC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UC.swift; sourceTree = "<group>"; };
-		1E3E17E129D0D0F8009B4CC7 /* TestUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUseCase.swift; sourceTree = "<group>"; };
-		1E3E17F229D0D641009B4CC7 /* TestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepository.swift; sourceTree = "<group>"; };
 		1E3E17FB29D0D67A009B4CC7 /* ReposFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposFactory.swift; sourceTree = "<group>"; };
 		1E3E180629D0D806009B4CC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = testdevices/README.md; sourceTree = SOURCE_ROOT; };
-		1E3E180729D0D8E8009B4CC7 /* LiveTestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTestRepository.swift; sourceTree = "<group>"; };
-		1E3E180F29D0D935009B4CC7 /* MockTestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTestRepository.swift; sourceTree = "<group>"; };
+		1E3E180F29D0D935009B4CC7 /* MockDeviceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDeviceRepository.swift; sourceTree = "<group>"; };
 		1E3E181729D0D992009B4CC7 /* MockReposFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockReposFactory.swift; sourceTree = "<group>"; };
 		1E3E182229D0DB87009B4CC7 /* LiveReposFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveReposFactory.swift; sourceTree = "<group>"; };
-		1E3E182729D0E0EA009B4CC7 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
-		1E3E182C29D0E5A0009B4CC7 /* TestCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoordinator.swift; sourceTree = "<group>"; };
+		1E3E182729D0E0EA009B4CC7 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		1E3E182C29D0E5A0009B4CC7 /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
+		1E7023C129DB24DD0077F348 /* DetailsViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewData.swift; sourceTree = "<group>"; };
+		1EE2931A29D713F60027D2DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1EE2931F29D714010027D2DA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1EE2932729D73C6B0027D2DA /* LightDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightDto.swift; sourceTree = "<group>"; };
+		1EE2932C29D73D450027D2DA /* LiveDeviceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDeviceRepository.swift; sourceTree = "<group>"; };
+		1EE2933429D7439F0027D2DA /* DeviceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRepository.swift; sourceTree = "<group>"; };
+		1EE9419E29D362A3001FBCB9 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		1EE941BA29D366D9001FBCB9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1EE941BC29D366D9001FBCB9 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		1EE941BD29D36777001FBCB9 /* HomeViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewData.swift; sourceTree = "<group>"; };
+		1EE941C329D367FE001FBCB9 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		1EE941C829D36844001FBCB9 /* RollerShutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerShutter.swift; sourceTree = "<group>"; };
+		1EE941D529D36AB7001FBCB9 /* GetDevicesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDevicesUseCase.swift; sourceTree = "<group>"; };
+		1EE941DD29D36AF2001FBCB9 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		1EE941E529D38743001FBCB9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1EE941EB29D38983001FBCB9 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		1EE9420029D39204001FBCB9 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +125,7 @@
 		1E3E177F29D0B58E009B4CC7 = {
 			isa = PBXGroup;
 			children = (
+				1EE2931B29D713F60027D2DA /* Localizable.strings */,
 				1E3E178A29D0B58E009B4CC7 /* testdevices */,
 				1E3E17A129D0B590009B4CC7 /* testdevicesTests */,
 				1E3E17AC29D0B590009B4CC7 /* testdevicesUITests */,
@@ -152,6 +180,7 @@
 		1E3E17C429D0B5FF009B4CC7 /* DataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1EE2932629D73C560027D2DA /* Dtos */,
 				1E3E17EC29D0D5CA009B4CC7 /* Mock */,
 				1E3E17EB29D0D5C1009B4CC7 /* Live */,
 			);
@@ -161,6 +190,7 @@
 		1E3E17C529D0B60A009B4CC7 /* DomainLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1EE941C229D367C5001FBCB9 /* Model */,
 				1E3E17F129D0D62A009B4CC7 /* Repository */,
 				1E3E17F029D0D61C009B4CC7 /* UseCases */,
 			);
@@ -170,26 +200,30 @@
 		1E3E17C629D0B616009B4CC7 /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				1E3E17D329D0B744009B4CC7 /* Test */,
+				1EE941EA29D38959001FBCB9 /* UIUtils */,
+				1EE941B929D366CD001FBCB9 /* Home */,
+				1E3E17D329D0B744009B4CC7 /* Details */,
+				1EE9419E29D362A3001FBCB9 /* RootCoordinator.swift */,
 			);
 			path = PresentationLayer;
 			sourceTree = "<group>";
 		};
-		1E3E17D329D0B744009B4CC7 /* Test */ = {
+		1E3E17D329D0B744009B4CC7 /* Details */ = {
 			isa = PBXGroup;
 			children = (
-				1E3E17D429D0B76A009B4CC7 /* TestViewController.swift */,
-				1E3E182729D0E0EA009B4CC7 /* TestViewModel.swift */,
-				1E3E182C29D0E5A0009B4CC7 /* TestCoordinator.swift */,
+				1E3E17D429D0B76A009B4CC7 /* DetailsViewController.swift */,
+				1E3E182729D0E0EA009B4CC7 /* DetailsViewModel.swift */,
+				1E3E182C29D0E5A0009B4CC7 /* DetailsCoordinator.swift */,
+				1E7023C129DB24DD0077F348 /* DetailsViewData.swift */,
 			);
-			path = Test;
+			path = Details;
 			sourceTree = "<group>";
 		};
 		1E3E17EB29D0D5C1009B4CC7 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				1E3E180729D0D8E8009B4CC7 /* LiveTestRepository.swift */,
 				1E3E182229D0DB87009B4CC7 /* LiveReposFactory.swift */,
+				1EE2932C29D73D450027D2DA /* LiveDeviceRepository.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -197,7 +231,7 @@
 		1E3E17EC29D0D5CA009B4CC7 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				1E3E180F29D0D935009B4CC7 /* MockTestRepository.swift */,
+				1E3E180F29D0D935009B4CC7 /* MockDeviceRepository.swift */,
 				1E3E181729D0D992009B4CC7 /* MockReposFactory.swift */,
 			);
 			path = Mock;
@@ -207,7 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				1E3E17DC29D0CFD6009B4CC7 /* UC.swift */,
-				1E3E17E129D0D0F8009B4CC7 /* TestUseCase.swift */,
+				1EE941D529D36AB7001FBCB9 /* GetDevicesUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -215,10 +249,56 @@
 		1E3E17F129D0D62A009B4CC7 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				1E3E17F229D0D641009B4CC7 /* TestRepository.swift */,
 				1E3E17FB29D0D67A009B4CC7 /* ReposFactory.swift */,
+				1EE2933429D7439F0027D2DA /* DeviceRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		1EE2932629D73C560027D2DA /* Dtos */ = {
+			isa = PBXGroup;
+			children = (
+				1EE2932729D73C6B0027D2DA /* LightDto.swift */,
+			);
+			path = Dtos;
+			sourceTree = "<group>";
+		};
+		1EE941B929D366CD001FBCB9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1EE941FF29D391D6001FBCB9 /* HomeCellViews */,
+				1EE941BA29D366D9001FBCB9 /* HomeViewModel.swift */,
+				1EE941E529D38743001FBCB9 /* HomeViewController.swift */,
+				1EE941BC29D366D9001FBCB9 /* HomeCoordinator.swift */,
+				1EE941BD29D36777001FBCB9 /* HomeViewData.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1EE941C229D367C5001FBCB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EE941C329D367FE001FBCB9 /* Light.swift */,
+				1EE941C829D36844001FBCB9 /* RollerShutter.swift */,
+				1EE941DD29D36AF2001FBCB9 /* Device.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EE941EA29D38959001FBCB9 /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1EE941EB29D38983001FBCB9 /* UIView+constraints.swift */,
+			);
+			path = UIUtils;
+			sourceTree = "<group>";
+		};
+		1EE941FF29D391D6001FBCB9 /* HomeCellViews */ = {
+			isa = PBXGroup;
+			children = (
+				1EE9420029D39204001FBCB9 /* HomeTableViewCell.swift */,
+			);
+			path = HomeCellViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +386,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 1E3E177F29D0B58E009B4CC7;
 			productRefGroup = 1E3E178929D0B58E009B4CC7 /* Products */;
@@ -325,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E3E179829D0B58F009B4CC7 /* LaunchScreen.storyboard in Resources */,
+				1EE2931929D713F60027D2DA /* Localizable.strings in Resources */,
 				1E3E179529D0B58F009B4CC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,18 +433,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E3E178C29D0B58F009B4CC7 /* AppDelegate.swift in Sources */,
-				1E3E17D529D0B76A009B4CC7 /* TestViewController.swift in Sources */,
+				1E3E17D529D0B76A009B4CC7 /* DetailsViewController.swift in Sources */,
 				1E3E181829D0D992009B4CC7 /* MockReposFactory.swift in Sources */,
 				1E3E17FC29D0D67A009B4CC7 /* ReposFactory.swift in Sources */,
 				1E3E178E29D0B58F009B4CC7 /* SceneDelegate.swift in Sources */,
-				1E3E17E229D0D0F8009B4CC7 /* TestUseCase.swift in Sources */,
-				1E3E182829D0E0EA009B4CC7 /* TestViewModel.swift in Sources */,
+				1EE941F429D38E60001FBCB9 /* HomeViewModel.swift in Sources */,
+				1EE941D629D36AB7001FBCB9 /* GetDevicesUseCase.swift in Sources */,
+				1EE941EC29D38983001FBCB9 /* UIView+constraints.swift in Sources */,
+				1EE9419F29D362A3001FBCB9 /* RootCoordinator.swift in Sources */,
+				1E7023C229DB24DD0077F348 /* DetailsViewData.swift in Sources */,
+				1E3E182829D0E0EA009B4CC7 /* DetailsViewModel.swift in Sources */,
 				1E3E17DD29D0CFD6009B4CC7 /* UC.swift in Sources */,
-				1E3E17F329D0D641009B4CC7 /* TestRepository.swift in Sources */,
-				1E3E181029D0D935009B4CC7 /* MockTestRepository.swift in Sources */,
-				1E3E180829D0D8E8009B4CC7 /* LiveTestRepository.swift in Sources */,
-				1E3E182D29D0E5A0009B4CC7 /* TestCoordinator.swift in Sources */,
+				1E3E181029D0D935009B4CC7 /* MockDeviceRepository.swift in Sources */,
+				1EE9420129D39204001FBCB9 /* HomeTableViewCell.swift in Sources */,
+				1EE941DE29D36AF2001FBCB9 /* Device.swift in Sources */,
+				1EE2932D29D73D450027D2DA /* LiveDeviceRepository.swift in Sources */,
+				1EE2932829D73C6B0027D2DA /* LightDto.swift in Sources */,
+				1E3E182D29D0E5A0009B4CC7 /* DetailsCoordinator.swift in Sources */,
+				1EE941E629D38743001FBCB9 /* HomeViewController.swift in Sources */,
 				1E3E182329D0DB87009B4CC7 /* LiveReposFactory.swift in Sources */,
+				1EE941C429D367FE001FBCB9 /* Light.swift in Sources */,
+				1EE2933529D7439F0027D2DA /* DeviceRepository.swift in Sources */,
+				1EE941BE29D36777001FBCB9 /* HomeViewData.swift in Sources */,
+				1EE941C929D36844001FBCB9 /* RollerShutter.swift in Sources */,
+				1EE941F029D38E58001FBCB9 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +500,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		1EE2931B29D713F60027D2DA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE2931A29D713F60027D2DA /* en */,
+				1EE2931F29D714010027D2DA /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -413,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -474,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

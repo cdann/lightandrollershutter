@@ -9,8 +9,8 @@ import Foundation
 
 enum Live {
     class ReposFactory: ReposFactoryProtocol {
-        func getTestRepository() -> TestRepository {
-            return LiveTestRepository()
+        func getDeviceRepository() -> DeviceRepository {
+            return LiveDeviceRepository()
         }
     }
 }

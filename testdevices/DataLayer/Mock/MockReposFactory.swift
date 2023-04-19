@@ -9,8 +9,8 @@ import Foundation
 
 enum Mock {
     class ReposFactory: ReposFactoryProtocol {
-        func getTestRepository() -> TestRepository {
-            return MockTestRepository()
+        func getDeviceRepository() -> DeviceRepository {
+            return MockDeviceRepository()
         }
     }
 }

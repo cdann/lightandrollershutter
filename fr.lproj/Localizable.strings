@@ -1,0 +1,8 @@
+"light_cell_title" = "Lampe";
+"roller_cell_title" = "Volet";
+"on" = "allumé";
+"off" = "éteint";
+"intensity" = "d'intensité";
+"opened_ratio" = "d'ouverture";
+"fully_opened" = "ouvert";
+"fully_closed" = "fermé";
