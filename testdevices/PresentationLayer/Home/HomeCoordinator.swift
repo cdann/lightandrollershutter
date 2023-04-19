@@ -15,7 +15,6 @@ class HomeCoordinator: Coordinator {
     init(ucFactory: UCFactory, navigationController: UINavigationController) {
         self.ucFactory = ucFactory
         self.navigationController = navigationController
-        print("init HomeCoordinator")
     }
     
     func getViewController() throws -> UIViewController {
@@ -26,7 +25,6 @@ class HomeCoordinator: Coordinator {
     }
     
     deinit {
-        print("deinit HomeCoordinator")
     }
     
 }
@@ -36,7 +34,7 @@ extension HomeCoordinator: HomeViewModelRouter {
         /// toDo: display error Alert
     }
     
-    func gotToDetails(_ device: Device) {
+    func goToDetails(_ device: Device) {
         let coordinator = DetailsCoordinator(ucFactory: ucFactory, navigationController: navigationController, device: device)
         do {
             let controller = try coordinator.getViewController()

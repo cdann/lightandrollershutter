@@ -166,6 +166,10 @@ class DetailsViewController: UIViewController, UIGestureRecognizerDelegate, Deta
         viewModel.load()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+    }
+    
     @objc func backAction(sender: UIButton!) {
         viewModel.backAction()
     }

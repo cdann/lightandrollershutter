@@ -40,6 +40,7 @@ class DeviceTableViewCell: UITableViewCell {
     static let height: CGFloat = 70
     
     func populate(_ device: Device) {
+        selectionStyle = .none
         let linesStackView = UIStackView(arrangedSubviews: lines(for: device))
         linesStackView.axis = .vertical
         linesStackView.distribution = .fillProportionally
@@ -75,7 +76,7 @@ class DeviceTableViewCell: UITableViewCell {
         switch device {
         case let .light(light):
             let titleLabel = UILabel()
-            titleLabel.text = "\(NSLocalizedString("light_cell_title", comment: "")) \(light.name)"
+            titleLabel.text = light.name
             titleLabel.textColor = .orange
             lines.append(titleLabel)
             
@@ -90,7 +91,7 @@ class DeviceTableViewCell: UITableViewCell {
             }
         case .rollerShutter(let roller):
             let titleLabel = UILabel()
-            titleLabel.text = "\(NSLocalizedString("roller_cell_title", comment: "")) \(roller.name)"
+            titleLabel.text = roller.name
             titleLabel.textColor = .orange
             lines.append(titleLabel)
             
@@ -113,9 +114,5 @@ class DeviceTableViewCell: UITableViewCell {
         
     }
     
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
 
 }

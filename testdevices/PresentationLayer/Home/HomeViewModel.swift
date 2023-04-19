@@ -19,7 +19,7 @@ protocol HomeViewModelRouter: class {
     /// for each navigation events called by the viewController
     func alert(text:String)
     
-    func gotToDetails(_ device: Device)
+    func goToDetails(_ device: Device)
 }
 
 
@@ -53,8 +53,7 @@ class HomeViewModel : HomeViewModelProtocol {
     }
     
     func selectedDevice(_ device: Device) {
-        print("Details for \(device)")
-        router?.gotToDetails(device)
+        router?.goToDetails(device)
     }
     
 

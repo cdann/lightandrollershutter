@@ -94,5 +94,4 @@ class HomeViewController: UITableViewController, HomeViewModelDataDelegate {
             viewModel.selectedDevice(device)
         }
     }
-
 }
